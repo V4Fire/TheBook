@@ -17,7 +17,7 @@ core/
 
 The layers are standardized across all projects and vertically arranged.
 Modules of the layer can only interact with modules from the layers strictly below.
-There are 5 standard layers (bottom to top):
+There are 6 standard layers (bottom to top):
 
 1. `core` - reusable functionality, detached from the specifics of the project/business.
 2. `models` - business logic.
