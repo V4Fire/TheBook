@@ -42,7 +42,15 @@ catalog/
   pages/
     p-catalog-categories/
     p-catalog-offers/
+service-worker/
+  modules/
+  index.ts
+scripts/
+  detect.js
+  chat-widget.js
 ```
+
+Features can have custom structure, for example: workers, arbitrary scripts, etc.
 
 **Important:** feature layers must be isolated from each other.
 
