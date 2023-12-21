@@ -1,5 +1,11 @@
 # Project structure
 
+- `src` - application source code
+- `build` - scripts and modules used for build process
+- `config` - configuration: build, runtime, etc.
+- `tests` - test helpers and configuration
+- `tools` - scripts and useful tools, i.e.: custom linters, git hooks scripts, etc.
+
 ## src
 
 **Layers of the application:**
@@ -65,8 +71,14 @@ TODO
 
 ## config
 
-TODO
+We use [config](https://www.npmjs.com/package/config/v/1.31.0) library for build
+and runtime configuration. 
 
+Config directory consists of three files:
+
+- default.js
+- development.js
+- production.js
 
 ## tests
 
